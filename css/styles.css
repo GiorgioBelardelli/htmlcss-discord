@@ -8,13 +8,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.col{
-    border: 1px dashed black;
-}
+
+
 /*Stili header*/
 header{
+
+    /*Questo é solo per lasciare lo stesso identico colore nella fascia alta, senza doverlo andare a cercare*/
     background-image: url(../img/jumbo.png);
-    
 }
 
 #testa{
@@ -24,10 +24,6 @@ header{
     justify-content: space-between;
     align-items: center;
     
-
-
-    /*debug
-    border: 1px dashed black;*/
 }
 
 img{
@@ -37,12 +33,12 @@ img{
 a{
     color: white;
     text-decoration: none;
-    margin: 0 5%;
+    margin: 0 3%;
 }
 
 .buttons{
     background-color: white;
-    padding: 10px 13px;
+    padding: 10px 20px;
     border: 0px;
     border-radius: 20px;
     
@@ -72,15 +68,15 @@ a{
     
     display: flex;
     justify-content: center;
-    align-items: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    padding: 5%;
 }
 
 #primoContenitore{
     text-align: center;
     width: 40%;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
 }
 
 h1{
@@ -106,19 +102,15 @@ p{
 
 .row{
     display: flex;
-    border: 1px dashed black;
 }
 
 .colRosa{   
     width: 40%;
     color: black;
-    border: 1px dashed black;
 }
 
 .colCeleste{
     width: 60%;
-    border: 1px dashed black;
-    
 }
 
 .immaginiCorpo{
@@ -126,17 +118,15 @@ p{
     margin: 0 auto;
 }
 
-.contenitore{
+.contenitoreInfo{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px auto;
     width: 60%;
-    min-height: 200px;
-    border: 1px dashed black;
 }
 
-.contenitoreVerde{
+.contenitoreUltimo{
     color: black;
     text-align: center;
     width: 60%;       
@@ -181,7 +171,7 @@ footer{
 
 }
 
-.colBasse{
+.colLinks{
     min-height: 300px;
     width: 80%;
     margin-bottom: 15px;
@@ -194,7 +184,7 @@ h4:first-child{
     margin-left: 12px;
 }
 
-.colBasse:nth-child(1){
+.colLinks:nth-child(1){
     color: rgb(101, 99, 240);
     width: 120%;
 }
