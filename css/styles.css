@@ -81,11 +81,12 @@ a{
 
 h1{
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 p{
     margin: 20px auto;
+    line-height: 200%;
 }
 
 .bottoneApri{
@@ -102,14 +103,15 @@ p{
 
 .row{
     display: flex;
+    
 }
 
-.colRosa{   
-    width: 40%;
+.colInfo{   
+    width: 30%;
     color: black;
 }
 
-.colCeleste{
+.colImg{
     width: 60%;
 }
 
@@ -130,13 +132,13 @@ p{
     color: black;
     text-align: center;
     width: 60%;       
-    margin: 20px auto ;
+    margin: 100px auto ;
 }
 
 
 
-.row:nth-child(even){
-    background-color: lightgray;
+.rowGrey{
+    background-color: whitesmoke;
 }
 
 .bottoneLilla{
@@ -154,8 +156,21 @@ h2{
     margin-bottom: 30px;
 }
 
-/*Stili per footer*/
+svg{
+    margin-bottom: -10px;
+    
+}
 
+.ondeFoto{
+    margin: 0 auto;
+}
+/*Stile onde*/
+
+
+
+
+
+/*Stili per footer*/
 /*Prima parte footer*/
 footer{
     
@@ -164,10 +179,9 @@ footer{
 }
 
 #links{
-    min-height: 200px;
     width: 60%;
     justify-content: center;
-    margin: 0px auto;
+    margin: 60px auto;
 
 }
 
